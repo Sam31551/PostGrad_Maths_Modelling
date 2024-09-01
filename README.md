@@ -1,13 +1,4 @@
----
-title: "Maths Modelling README"
-author: "Sam Ryder, 18317496"
-date: "`r Sys.Date()`"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # What gives a country better international football tournament-winning odds?
 
