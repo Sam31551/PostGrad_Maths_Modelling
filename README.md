@@ -67,7 +67,7 @@ The analysis is performed through several notebooks, each focusing on a specific
 
 ![Modelling Process](Modelling_Process.png)
 
-### 1. Data Collection
+### Data Collection
 The data was sourced from each of the above links. The data was then summarised to contain one row for each country competing in the tournament. This data was ordered alphabetically by country to allow for easier merging. Once the data was consistently formatted it was merged on 'Country'. This meant that the final dataset had a single row containing a Country's: 
 1. Nation (Team)
 2. Nation Ranking (FIFA Rank)
@@ -79,28 +79,28 @@ The data was sourced from each of the above links. The data was then summarised 
 
 This Dataframe was saved and passed onto the pre-processing stage.
 
-### 2. Data Pre Processing
+### Data Pre Processing
 The merged dataframe from before is pre-processed to allow for smoother exploration and further analysis. Data types are changed, data is explored and clustered. Finally, a processed dataset is saved for use in later files.
 
-### 3. Base Modelling
+### Base Modelling
 The pre-processed data is read into the file. The data was be split into train and test sets. A range of regression models were initialized and were run with their standard hyperparameters. Performance metrics are  collected for each of the models. These metrics serve as a benchmark for further models that undergo Feature Selection/Optimization/Stacking.
 
-### 4. Feature Selection
+### Feature Selection
 The data underwent feature selection. This refers to collecting a subset of features that best encapsulate the target feature. This was done using both the Forward and Backward techniques.
 
-### 5. Models on Best Features
+### Models on Best Features
 The same base models that were run before were run on the dataset with reduced features. This gives an indication of how well this subset of best predictors can predict the target feature. If there is no significant change in model performance, you may suggest that only the best predictors are necessary for modelling therefore reducing data collecting times in subsequent analyses.
 
-### 6. Model Optimization
+### Model Optimization
 The previously defined models will have their hyperparameters tuned in order to improve performance. This was done through the use of Grid Search. While this is not an exhaustive method, it allows for the optimization for the large quantity of models in the analysis. If wanting to re-run this analysis one could choose to use a more exhaustive grid search or an alternative optimization method.
 
-### 7. Stacking
+### Stacking
 This analysis segment will focus on stacking the optimized models. Stacking is an ensemble method that combines the predictive power of multiple models to generate a new model. This can often lead to improved model results.
 
-### 8. Feature Importance
+### Feature Importance
 This analysis segment will focus on feature importance. It will consider each of the best performing models from all previous model stages. The best model will be identified and re-tested. Once the model is tested, feature importance will be run. This will be done using the SHAP (SHapley Additive exPlanations) tools. This segment of the analysis answers the core of the initial resource question: 'What gives a country better international football tournament-winning odds?'. The SHAP output, shown below, shows the feature importance ranking and the traits of these features that lead to certain predictions. 
 
 ![SHAP Summary Plot](SHAP_Output.png)
 
-### 9. Feature Importance II
+### Feature Importance II
 This notebook will look further into Feature Importance. The previous FI notebook had anonymised the data where countries were considered as one rather than individually. While that works for general conclusions, this notebook will focus more on the impact of simply the country and no external factors and the effect that has on their tournament winning odds.
