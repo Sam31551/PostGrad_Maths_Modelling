@@ -21,6 +21,18 @@ This analysis will consider data from multiple sources to build, optimize and te
 10. [Feature Importance](#feature-importance)
 11. [Feature Importance II] (#feature-importance-II)
 
+1. [Installation and Set-Up](#installation-and-set-up)
+2. [Data Sources](#data-sources)
+3. [Data Collection](#data-collection)
+4. [Data Pre-Processing](#data-pre-processing)
+5. [Base Modelling](#base-modelling)
+6. [Feature Selection](#feature-selection)
+7. [Models on Best Features](#models-on-best-features)
+8. [Model Optimization](#model-optimization)
+9. [Stacking](#stacking)
+10. [Feature Importance](#feature-importance)
+11. [Feature Importance II](#feature-importance-ii)
+
 ## Installation and Set-Up
 
 1. **Python Installation**: This project requires Python. Ensure you have Python installed on your system. You can download Python from the [official Python website](https://www.python.org/downloads/).
