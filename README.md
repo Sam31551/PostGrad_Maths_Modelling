@@ -9,17 +9,17 @@ This analysis will consider data from multiple sources to build, optimize and te
 
 ## Table of Contents
 
-[Installation and Set-Up](#installation-and-set-up)
-[Data Sources](#data-sources)
-[Data Collection](#-1.-data-collection)
-[Data Pre-Processing](#data-pre-processing)
-[Base Modelling](#base-modelling)
-[Feature Selection](#feature-selection)
-[Models on Best Features](#models-on-best-features)
-[Model Optimization](#model-optimization)
-[Stacking](#stacking)
-[Feature Importance](#8.-feature-importance)
-[Feature Importance II](#feature-importance-ii)
+1. [Installation and Set-Up](#installation-and-set-up)
+2. [Data Sources](#data-sources)
+3. [Data Collection](#data-collection)
+4. [Data Pre-Processing](#data-pre-processing)
+5. [Base Modelling](#base-modelling)
+6. [Feature Selection](#feature-selection)
+7. [Models on Best Features](#models-on-best-features)
+8. [Model Optimization](#model-optimization)
+9. [Stacking](#stacking)
+10. [Feature Importance](#feature-importance)
+11. [Feature Importance II](#feature-importance-ii)
 
 ## Installation and Set-Up
 
