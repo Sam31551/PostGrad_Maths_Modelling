@@ -18,7 +18,7 @@ This analysis will consider data from multiple sources to build, optimize and te
 7. [Models on Best Features](#models-on-best-features)
 8. [Model Optimization](#model-optimization)
 9. [Stacking](#stacking)
-10. [Feature Importance](#feature-importance)
+10. [Feature Importance](#8.-feature-importance)
 11. [Feature Importance II](#feature-importance-ii)
 
 ## Installation and Set-Up
