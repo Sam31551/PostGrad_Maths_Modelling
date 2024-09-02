@@ -11,7 +11,7 @@ This analysis will consider data from multiple sources to build, optimize and te
 
 1. [Installation and Set-Up](#installation-and-set-up)
 2. [Data Sources](#data-sources)
-3. [Data Collection](#1.-data-collection)
+3. [Data Collection](#-1.-data-collection)
 4. [Data Pre-Processing](#data-pre-processing)
 5. [Base Modelling](#base-modelling)
 6. [Feature Selection](#feature-selection)
