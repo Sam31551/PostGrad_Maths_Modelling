@@ -97,7 +97,7 @@ The analysis is performed through several notebooks, each focusing on a specific
    - Performance metrics are collected for each of the models. These metrics serve as a benchmark for further models that undergo Feature Selection/Optimization/Stacking.
 
 ### Feature Selection
-The data underwent feature selection. This refers to collecting a subset of features that best encapsulate the target feature. This was done using both the Forward and Backward techniques.
+   - The data underwent Forward and Backward feature selection.
 
 ### Models on Best Features
 The same base models that were run before were run on the dataset with reduced features. This gives an indication of how well this subset of best predictors can predict the target feature. If there is no significant change in model performance, you may suggest that only the best predictors are necessary for modelling therefore reducing data collecting times in subsequent analyses.
