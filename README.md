@@ -113,8 +113,8 @@ The analysis is performed through several notebooks, each focusing on a specific
    - The optimized models were stacked to combine the predictive power of multiple models to generate a new model. 
 
 ### Feature Importance
-   - The best model from all modelling stages is identified and re-tested. Once the model is tested, feature importance will be run.
-   - This will be done using the SHAP (SHapley Additive exPlanations) tools.
+   - The best model from all modelling stages was identified and re-tested. Once the model was tested, feature importance was run.
+   - This was done using the SHAP (SHapley Additive exPlanations) tools.
    - The SHAP output, shown below, shows the feature importance ranking and the traits of these features that lead to certain predictions. 
 
 ![SHAP Summary Plot](SHAP_Output.png)
