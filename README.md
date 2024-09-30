@@ -120,4 +120,5 @@ The analysis is performed through several notebooks, each focusing on a specific
 ![SHAP Summary Plot](SHAP_Output.png)
 
 ### Feature Importance II
-This notebook will look further into Feature Importance. The previous FI notebook had anonymised the data where countries were considered as one rather than individually. While that works for general conclusions, this notebook will focus more on the impact of simply the country and no external factors and the effect that has on their tournament winning odds.
+   - The previous FI notebook had anonymised the data where countries were considered as one rather than individually.
+   - While that works for general conclusions, this notebook (FI II) will focus more on the impact of simply the country and no external factors and the effect that has on their tournament winning odds.
