@@ -69,13 +69,20 @@ The analysis is performed through several notebooks, each focusing on a specific
 
 ### Data Collection
    - The data was sourced from each of the above links. The data was then summarised to contain one row for each country competing in the tournament.
-   - This data was ordered alphabetically by country to allow for easier merging. Once the data was consistently formatted it was merged on 'Country'. This meant that the final dataset had a single row containing a Country's: 
+   - This data was ordered alphabetically by country to allow for easier merging. Once the data was consistently formatted it was merged on 'Country'. This meant that the final dataset had a single row containing a Country's:
+   - 
          1. Nation (Team)
+     
          2. Nation Ranking (FIFA Rank)
+     
          3. Tournament Odds (Odds_to_One)
+     
          4. Manager Statistics (Manager, Manager_Age, Contract until, Months_installed)
+     
          5. Nation Tournament Wins (Titles)
+     
          6. Playing Squad Data (Age, Height, Caps, Goals, MarketValue, Win Percentage)
+     
          7. Qualifying Team Data (Q_GF, Q_GA, Q_PPG_Last_5, Q_Clean_Sheets, Q_xGF)
 
    - This Dataframe was saved and passed onto the pre-processing stage.
