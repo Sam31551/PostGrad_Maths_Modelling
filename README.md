@@ -70,7 +70,7 @@ The analysis is performed through several notebooks, each focusing on a specific
 ### Data Collection
    - The data was sourced from each of the above links. The data was then summarised to contain one row for each country competing in the tournament.
    - This data was ordered alphabetically by country to allow for easier merging. Once the data was consistently formatted it was merged on 'Country'. This meant that the final dataset had a single row containing a Country's:
-   - 
+     
          1. Nation (Team)
      
          2. Nation Ranking (FIFA Rank)
