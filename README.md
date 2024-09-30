@@ -100,16 +100,22 @@ The analysis is performed through several notebooks, each focusing on a specific
    - The data underwent Forward and Backward feature selection.
 
 ### Models on Best Features
-The same base models that were run before were run on the dataset with reduced features. This gives an indication of how well this subset of best predictors can predict the target feature. If there is no significant change in model performance, you may suggest that only the best predictors are necessary for modelling therefore reducing data collecting times in subsequent analyses.
+   - Base models are run on the dataset with reduced features.
+   - This gives an indication of how well this subset of best predictors can predict the target feature.
+   - If there is no significant change in model performance, you may suggest that only the best predictors are necessary for modelling therefore reducing data collecting times in subsequent analyses.
 
 ### Model Optimization
-The previously defined models will have their hyperparameters tuned in order to improve performance. This was done through the use of Grid Search. While this is not an exhaustive method, it allows for the optimization for the large quantity of models in the analysis. If wanting to re-run this analysis one could choose to use a more exhaustive grid search or an alternative optimization method.
+   - Models have their hyperparameters tuned in order to improve performance.
+   - This was done through the use of Grid Search. While this is not an exhaustive method, it allows for the optimization for the large quantity of models in the analysis.
+   - If wanting to re-run this analysis one could choose to use a more exhaustive grid search or an alternative optimization method.
 
 ### Stacking
-This analysis segment will focus on stacking the optimized models. Stacking is an ensemble method that combines the predictive power of multiple models to generate a new model. This can often lead to improved model results.
+   - The optimized models were stacked to combine the predictive power of multiple models to generate a new model. 
 
 ### Feature Importance
-This analysis segment will focus on feature importance. It will consider each of the best performing models from all previous model stages. The best model will be identified and re-tested. Once the model is tested, feature importance will be run. This will be done using the SHAP (SHapley Additive exPlanations) tools. This segment of the analysis answers the core of the initial resource question: 'What gives a country better international football tournament-winning odds?'. The SHAP output, shown below, shows the feature importance ranking and the traits of these features that lead to certain predictions. 
+   - The best model from all modelling stages is identified and re-tested. Once the model is tested, feature importance will be run.
+   - This will be done using the SHAP (SHapley Additive exPlanations) tools.
+   - The SHAP output, shown below, shows the feature importance ranking and the traits of these features that lead to certain predictions. 
 
 ![SHAP Summary Plot](SHAP_Output.png)
 
