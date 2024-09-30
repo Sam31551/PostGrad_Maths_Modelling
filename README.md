@@ -92,7 +92,9 @@ The analysis is performed through several notebooks, each focusing on a specific
    - Data types are changed, data is explored and clustered. Finally, a processed dataset is saved for use in later files.
 
 ### Base Modelling
-The pre-processed data is read into the file. The data was be split into train and test sets. A range of regression models were initialized and were run with their standard hyperparameters. Performance metrics are  collected for each of the models. These metrics serve as a benchmark for further models that undergo Feature Selection/Optimization/Stacking.
+   - The pre-processed data is split into train and test sets.
+   - A range of regression models are initialized and run with their standard hyperparameters.
+   - Performance metrics are collected for each of the models. These metrics serve as a benchmark for further models that undergo Feature Selection/Optimization/Stacking.
 
 ### Feature Selection
 The data underwent feature selection. This refers to collecting a subset of features that best encapsulate the target feature. This was done using both the Forward and Backward techniques.
