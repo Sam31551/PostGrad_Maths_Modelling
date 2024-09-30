@@ -68,19 +68,21 @@ The analysis is performed through several notebooks, each focusing on a specific
 ![Modelling Process](Modelling_Process.png)
 
 ### Data Collection
-The data was sourced from each of the above links. The data was then summarised to contain one row for each country competing in the tournament. This data was ordered alphabetically by country to allow for easier merging. Once the data was consistently formatted it was merged on 'Country'. This meant that the final dataset had a single row containing a Country's: 
-1. Nation (Team)
-2. Nation Ranking (FIFA Rank)
-3. Tournament Odds (Odds_to_One)
-4. Manager Statistics (Manager, Manager_Age, Contract until, Months_installed)
-5. Nation Tournament Wins (Titles)
-6. Playing Squad Data (Age, Height, Caps, Goals, MarketValue, Win Percentage)
-7. Qualifying Team Data (Q_GF, Q_GA, Q_PPG_Last_5, Q_Clean_Sheets, Q_xGF)
+   - The data was sourced from each of the above links. The data was then summarised to contain one row for each country competing in the tournament.
+   - This data was ordered alphabetically by country to allow for easier merging. Once the data was consistently formatted it was merged on 'Country'. This meant that the final dataset had a single row containing a Country's: 
+         1. Nation (Team)
+         2. Nation Ranking (FIFA Rank)
+         3. Tournament Odds (Odds_to_One)
+         4. Manager Statistics (Manager, Manager_Age, Contract until, Months_installed)
+         5. Nation Tournament Wins (Titles)
+         6. Playing Squad Data (Age, Height, Caps, Goals, MarketValue, Win Percentage)
+         7. Qualifying Team Data (Q_GF, Q_GA, Q_PPG_Last_5, Q_Clean_Sheets, Q_xGF)
 
-This Dataframe was saved and passed onto the pre-processing stage.
+   - This Dataframe was saved and passed onto the pre-processing stage.
 
 ### Data Pre Processing
-The merged dataframe from before is pre-processed to allow for smoother exploration and further analysis. Data types are changed, data is explored and clustered. Finally, a processed dataset is saved for use in later files.
+   - The merged dataframe from before is pre-processed to allow for smoother exploration and further analysis.
+   - Data types are changed, data is explored and clustered. Finally, a processed dataset is saved for use in later files.
 
 ### Base Modelling
 The pre-processed data is read into the file. The data was be split into train and test sets. A range of regression models were initialized and were run with their standard hyperparameters. Performance metrics are  collected for each of the models. These metrics serve as a benchmark for further models that undergo Feature Selection/Optimization/Stacking.
